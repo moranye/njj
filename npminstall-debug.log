@@ -1,0 +1,1476 @@
+{ root: 'E:\\njj',
+  registry: 'https://registry.npm.taobao.org',
+  pkgs: [ { name: 'gulp', version: '*', type: 'tag' } ],
+  production: false,
+  cacheDir: 'C:\\Users\\Administrator\\.npminstall_tarball',
+  env: 
+   { npm_config_registry: 'https://registry.npm.taobao.org',
+     npm_config_argv: '{"remain":[],"cooked":["--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org","gulp","--save-dev"],"original":["--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org","gulp","--save-dev"]}',
+     NODE: 'D:\\nodejs\\node.exe',
+     npm_node_execpath: 'D:\\nodejs\\node.exe',
+     npm_execpath: 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npminstall\\bin\\install.js',
+     npm_rootpath: 'E:\\njj',
+     npm_config_userconfig: 'C:\\Users\\Administrator\\.cnpmrc',
+     npm_config_disturl: 'https://npm.taobao.org/mirrors/node',
+     npm_config_r: 'https://registry.npm.taobao.org',
+     NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+     NVM_NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+     NVM_IOJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/iojs',
+     PHANTOMJS_CDNURL: 'https://npm.taobao.org/mirrors/phantomjs',
+     CHROMEDRIVER_CDNURL: 'https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/chromedriver',
+     OPERADRIVER_CDNURL: 'https://npm.taobao.org/mirrors/operadriver',
+     ELECTRON_MIRROR: 'https://npm.taobao.org/mirrors/electron/',
+     SASS_BINARY_SITE: 'https://npm.taobao.org/mirrors/node-sass',
+     FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
+     npm_config_cache: 'C:\\Users\\Administrator\\.npminstall_tarball' },
+  binaryMirrors: 
+   { ENVS: 
+      { NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+        NVM_NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+        NVM_IOJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/iojs',
+        PHANTOMJS_CDNURL: 'https://npm.taobao.org/mirrors/phantomjs',
+        CHROMEDRIVER_CDNURL: 'https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/chromedriver',
+        OPERADRIVER_CDNURL: 'https://npm.taobao.org/mirrors/operadriver',
+        ELECTRON_MIRROR: 'https://npm.taobao.org/mirrors/electron/',
+        SASS_BINARY_SITE: 'https://npm.taobao.org/mirrors/node-sass',
+        FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v' },
+     leveldown: { host: 'https://npm.taobao.org/mirrors/leveldown/v{version}' },
+     'leveldown-hyper': { host: 'https://npm.taobao.org/mirrors/leveldown-hyper/v{version}' },
+     mknod: { host: 'https://npm.taobao.org/mirrors/mknod/v{version}' },
+     couchbase: { host: 'https://npm.taobao.org/mirrors/couchbase/v{version}' },
+     'sodium-prebuilt': { host: 'https://npm.taobao.org/mirrors/sodium-prebuilt/v{version}' },
+     'utp-native': { host: 'https://npm.taobao.org/mirrors/utp-native/v{version}' },
+     'node-tk5': { host: 'https://npm.taobao.org/mirrors/node-tk5/v{version}' },
+     'fuse-bindings': { host: 'https://npm.taobao.org/mirrors/fuse-bindings/v{version}' },
+     'zmq-prebuilt': { host: 'https://npm.taobao.org/mirrors/zmq-prebuilt/v{version}' },
+     gl: { host: 'https://npm.taobao.org/mirrors/gl/v{version}' },
+     hackrf: { host: 'https://npm.taobao.org/mirrors/hackrf/v{version}' },
+     rabin: { host: 'https://npm.taobao.org/mirrors/rabin/v{version}' },
+     'v8-debug': { host: 'https://npm.taobao.org/mirrors/node-inspector' },
+     'v8-profiler': { host: 'https://npm.taobao.org/mirrors/node-inspector' },
+     sqlite3: { host: 'https://npm.taobao.org/mirrors' },
+     grpc: 
+      { host: 'https://npm.taobao.org/mirrors',
+        remote_path: '{name}/v{version}' },
+     fsevents: { host: 'https://npm.taobao.org/mirrors/fsevents' },
+     nodegit: { host: 'https://npm.taobao.org/mirrors/nodegit/v{version}' },
+     'flow-bin': 
+      { replaceHost: 'https://github.com/facebook/flow/releases/download/v',
+        host: 'https://npm.taobao.org/mirrors/flow/v' },
+     'jpegtran-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'cwebp-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'zopflipng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'optipng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     mozjpeg: { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     gifsicle: { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngquant-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngcrush-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'jpeg-recompress-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'advpng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngout-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'jpegoptim-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' } },
+  forbiddenLicenses: null,
+  strictSSL: true,
+  ignoreScripts: false,
+  detail: false,
+  events: 
+   EventEmitter {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: 0,
+     await: [Function: await] },
+  postInstallTasks: [],
+  peerDependencies: [],
+  latestVersions: 
+   Map {
+     'gulp' => '3.9.1',
+     'chalk' => '1.1.3',
+     'pretty-hrtime' => '1.0.3',
+     'tildify' => '1.2.0',
+     'v8flags' => '2.0.11',
+     'orchestrator' => '0.3.8',
+     'deprecated' => '0.0.1',
+     'archy' => '1.0.0',
+     'gulp-util' => '3.0.8',
+     'supports-color' => '2.0.0',
+     'ansi-styles' => '2.2.1',
+     'os-homedir' => '1.0.2',
+     'strip-ansi' => '3.0.1',
+     'escape-string-regexp' => '1.0.5',
+     'user-home' => '1.1.1',
+     'stream-consume' => '0.1.0',
+     'sequencify' => '0.0.7',
+     'has-ansi' => '2.0.0',
+     'minimist' => '1.2.0',
+     'end-of-stream' => '0.1.5',
+     'has-gulplog' => '0.1.0',
+     'liftoff' => '2.3.0',
+     'array-differ' => '1.0.0',
+     'vinyl-fs' => '0.3.14',
+     'lodash._reevaluate' => '3.0.0',
+     'lodash._reescape' => '3.0.0',
+     'lodash.template' => '3.6.2',
+     'gulplog' => '1.0.0',
+     'fancy-log' => '1.3.0',
+     'object-assign' => '3.0.0',
+     'dateformat' => '2.0.0',
+     'lodash._reinterpolate' => '3.0.0',
+     'ansi-regex' => '2.1.1',
+     'semver' => '4.3.6',
+     'array-uniq' => '1.0.3',
+     'beeper' => '1.1.1',
+     'multipipe' => '0.1.2',
+     'through2' => '2.0.3',
+     'findup-sync' => '0.4.3',
+     'once' => '1.4.0',
+     'lodash.isstring' => '4.0.1',
+     'sparkles' => '1.0.0',
+     'fined' => '1.0.2',
+     'lodash.isplainobject' => '4.0.6',
+     'replace-ext' => '0.0.1',
+     'lodash.escape' => '3.2.0',
+     'strip-bom' => '1.0.0',
+     'lodash._basevalues' => '3.0.0',
+     'lodash._basecopy' => '3.0.1',
+     'lodash._basetostring' => '3.0.1',
+     'lodash.keys' => '3.1.2',
+     'lodash.mapvalues' => '4.6.0',
+     'lodash.restparam' => '3.6.1',
+     'lodash.templatesettings' => '3.1.1',
+     'lodash._isiterateecall' => '3.0.9',
+     'glogg' => '1.0.0',
+     'glob-stream' => '3.1.18',
+     'defaults' => '1.0.3',
+     'time-stamp' => '1.0.1',
+     'vinyl' => '0.5.3',
+     'glob-watcher' => '0.0.6',
+     'rechoir' => '0.6.2',
+     'extend' => '3.0.0',
+     'resolve-dir' => '0.1.1',
+     'expand-tilde' => '1.2.2',
+     'flagged-respawn' => '0.3.2',
+     'lodash.assignwith' => '4.2.0',
+     'lodash.isempty' => '4.4.0',
+     'detect-file' => '0.1.0',
+     'first-chunk-stream' => '1.0.0',
+     'lodash.pick' => '4.4.0',
+     'lodash._root' => '3.0.1',
+     'is-glob' => '2.0.1',
+     'lodash.isarray' => '3.0.4',
+     'lodash._getnative' => '3.9.1',
+     'is-utf8' => '0.2.1',
+     'parse-filepath' => '1.0.1',
+     'lodash.isarguments' => '3.1.0',
+     'wrappy' => '1.0.2',
+     'glob2base' => '0.0.12',
+     'duplexer2' => '0.0.2',
+     'minimatch' => '2.0.10',
+     'xtend' => '4.0.1',
+     'clone-stats' => '0.0.1',
+     'glob' => '4.5.3',
+     'micromatch' => '2.3.11',
+     'graceful-fs' => '3.0.11',
+     'ordered-read-streams' => '0.1.0',
+     'unique-stream' => '1.0.0',
+     'clone' => '1.0.2',
+     'global-modules' => '0.2.3',
+     'gaze' => '0.5.2',
+     'is-extglob' => '1.0.0',
+     'fs-exists-sync' => '0.1.0',
+     'map-cache' => '0.2.2',
+     'find-index' => '0.1.1',
+     'brace-expansion' => '1.1.6',
+     'readable-stream' => '2.2.5',
+     'is-absolute' => '0.2.6',
+     'mkdirp' => '0.5.1',
+     'filename-regex' => '2.0.0',
+     'expand-brackets' => '0.1.5',
+     'braces' => '1.8.5',
+     'arr-diff' => '2.0.0',
+     'parse-glob' => '3.0.4',
+     'extglob' => '0.3.2',
+     'object.omit' => '2.0.1',
+     'path-root' => '0.1.1',
+     'inflight' => '1.0.6',
+     'natives' => '1.1.0',
+     'regex-cache' => '0.4.3',
+     'array-unique' => '0.2.1',
+     'inherits' => '2.0.3',
+     'kind-of' => '3.1.0',
+     'normalize-path' => '2.0.1',
+     'is-windows' => '0.2.0',
+     'global-prefix' => '0.1.5',
+     'is-relative' => '0.2.1',
+     'repeat-element' => '1.1.2',
+     'string_decoder' => '0.10.31',
+     'expand-range' => '1.8.2',
+     'isarray' => '1.0.0',
+     'arr-flatten' => '1.0.1',
+     'is-posix-bracket' => '0.1.1',
+     'balanced-match' => '0.4.2',
+     'is-extendable' => '0.1.1',
+     'is-dotfile' => '1.0.2',
+     'glob-base' => '0.3.0',
+     'path-root-regex' => '0.1.2',
+     'is-primitive' => '2.0.0',
+     'for-own' => '0.1.5',
+     'is-equal-shallow' => '0.1.3',
+     'core-util-is' => '1.0.2',
+     'concat-map' => '0.0.1',
+     'ini' => '1.3.4',
+     'buffer-shims' => '1.0.0',
+     'is-buffer' => '1.1.5',
+     'homedir-polyfill' => '1.0.1',
+     'preserve' => '0.2.0',
+     'util-deprecate' => '1.0.2',
+     'process-nextick-args' => '1.0.7',
+     'which' => '1.2.12',
+     'globule' => '0.1.0',
+     'is-unc-path' => '0.1.2',
+     'for-in' => '1.0.2',
+     'fill-range' => '2.2.3',
+     'glob-parent' => '2.0.0',
+     'parse-passwd' => '1.0.0',
+     'isexe' => '1.1.2',
+     'repeat-string' => '1.6.1',
+     'unc-path-regex' => '0.1.2',
+     'is-number' => '2.1.0',
+     'randomatic' => '1.1.6',
+     'isobject' => '2.1.0',
+     'resolve' => '1.3.2',
+     'lodash' => '1.0.2',
+     'sigmund' => '1.0.1',
+     'lru-cache' => '2.7.3',
+     'path-parse' => '1.0.5',
+     'interpret' => '1.0.1' },
+  latestPackages: Map {},
+  cache: 
+   { 'download:gulp@3.9.1': { done: true },
+     'install:gulp@*': { package: [Object], dir: 'E:\\njj\\node_modules\\.3.9.1@gulp' },
+     'download:deprecated@0.0.1': { done: true },
+     'download:orchestrator@0.3.8': { done: true },
+     'download:chalk@1.1.3': { done: true },
+     'download:minimist@1.2.0': { done: true },
+     'download:pretty-hrtime@1.0.3': { done: true },
+     'download:gulp-util@3.0.8': { done: true },
+     'download:v8flags@2.0.11': { done: true },
+     'download:semver@4.3.6': { done: true },
+     'download:vinyl-fs@0.3.14': { done: true },
+     'download:liftoff@2.3.0': { done: true },
+     'download:tildify@1.2.0': { done: true },
+     'download:archy@1.0.0': { done: true },
+     'install:chalk@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.3@chalk' },
+     'install:chalk:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.3@chalk' },
+     'install:pretty-hrtime@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@pretty-hrtime' },
+     'install:pretty-hrtime:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@pretty-hrtime' },
+     'install:tildify@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.0@tildify' },
+     'install:tildify:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.0@tildify' },
+     'install:v8flags@^2.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.11@v8flags' },
+     'install:v8flags:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.11@v8flags' },
+     'download:escape-string-regexp@1.0.5': { done: true },
+     'download:supports-color@2.0.0': { done: true },
+     'download:ansi-styles@2.2.1': { done: true },
+     'download:strip-ansi@3.0.1': { done: true },
+     'download:os-homedir@1.0.2': { done: true },
+     'download:user-home@1.1.1': { done: true },
+     'install:orchestrator@^0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.8@orchestrator' },
+     'install:orchestrator:range:0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.8@orchestrator' },
+     'download:end-of-stream@0.1.5': { done: true },
+     'download:stream-consume@0.1.0': { done: true },
+     'download:sequencify@0.0.7': { done: true },
+     'download:has-ansi@2.0.0': { done: true },
+     'install:deprecated@^0.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@deprecated' },
+     'install:deprecated:range:0.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@deprecated' },
+     'install:archy@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@archy' },
+     'install:archy:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@archy' },
+     'install:gulp-util@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.8@gulp-util' },
+     'install:gulp-util:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.8@gulp-util' },
+     'download:has-gulplog@0.1.0': { done: true },
+     'download:gulplog@1.0.0': { done: true },
+     'download:lodash._reescape@3.0.0': { done: true },
+     'download:fancy-log@1.3.0': { done: true },
+     'download:array-differ@1.0.0': { done: true },
+     'download:beeper@1.1.1': { done: true },
+     'download:lodash._reevaluate@3.0.0': { done: true },
+     'download:array-uniq@1.0.3': { done: true },
+     'download:dateformat@2.0.0': { done: true },
+     'download:lodash._reinterpolate@3.0.0': { done: true },
+     'download:lodash.template@3.6.2': { done: true },
+     'download:replace-ext@0.0.1': { done: true },
+     'download:object-assign@3.0.0': { done: true },
+     'download:multipipe@0.1.2': { done: true },
+     'download:vinyl@0.5.3': { done: true },
+     'download:through2@2.0.3': { done: true },
+     'install:supports-color@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@supports-color' },
+     'install:supports-color:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@supports-color' },
+     'install:ansi-styles@^2.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.1@ansi-styles' },
+     'install:ansi-styles:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.1@ansi-styles' },
+     'install:os-homedir@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@os-homedir' },
+     'install:os-homedir:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@os-homedir' },
+     'install:strip-ansi@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@strip-ansi' },
+     'install:strip-ansi:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@strip-ansi' },
+     'install:escape-string-regexp@^1.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.5@escape-string-regexp' },
+     'install:escape-string-regexp:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.5@escape-string-regexp' },
+     'download:ansi-regex@2.1.1': { done: true },
+     'install:user-home@^1.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.1@user-home' },
+     'install:user-home:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.1@user-home' },
+     'install:stream-consume@~0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@stream-consume' },
+     'install:stream-consume:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@stream-consume' },
+     'install:sequencify@~0.0.7': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.7@sequencify' },
+     'install:sequencify:range:0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.7@sequencify' },
+     'install:has-ansi@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@has-ansi' },
+     'install:has-ansi:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@has-ansi' },
+     'install:minimist@^1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.0@minimist' },
+     'install:minimist:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.0@minimist' },
+     'install:end-of-stream@~0.1.5': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@end-of-stream' },
+     'install:end-of-stream:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@end-of-stream' },
+     'install:has-gulplog@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@has-gulplog' },
+     'install:has-gulplog:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@has-gulplog' },
+     'install:liftoff@^2.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.3.0@liftoff' },
+     'install:liftoff:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.3.0@liftoff' },
+     'download:once@1.3.3': { done: true },
+     'download:sparkles@1.0.0': { done: true },
+     'download:findup-sync@0.4.3': { done: true },
+     'install:array-differ@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@array-differ' },
+     'install:array-differ:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@array-differ' },
+     'download:extend@3.0.0': { done: true },
+     'download:fined@1.0.2': { done: true },
+     'download:flagged-respawn@0.3.2': { done: true },
+     'download:lodash.mapvalues@4.6.0': { done: true },
+     'download:rechoir@0.6.2': { done: true },
+     'download:lodash.isstring@4.0.1': { done: true },
+     'install:vinyl-fs@^0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.14@vinyl-fs' },
+     'install:vinyl-fs:range:0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.14@vinyl-fs' },
+     'download:lodash.isplainobject@4.0.6': { done: true },
+     'download:resolve@1.3.2': { done: true },
+     'install:lodash._reevaluate@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reevaluate' },
+     'install:lodash._reevaluate:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reevaluate' },
+     'install:lodash._reescape@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reescape' },
+     'install:lodash._reescape:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reescape' },
+     'install:lodash.template@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.6.2@lodash.template' },
+     'install:lodash.template:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.6.2@lodash.template' },
+     'download:glob-watcher@0.0.6': { done: true },
+     'download:mkdirp@0.5.1': { done: true },
+     'download:glob-stream@3.1.18': { done: true },
+     'download:graceful-fs@3.0.11': { done: true },
+     'download:defaults@1.0.3': { done: true },
+     'download:vinyl@0.4.6': { done: true },
+     'download:through2@0.6.5': { done: true },
+     'download:strip-bom@1.0.0': { done: true },
+     'download:lodash._basecopy@3.0.1': { done: true },
+     'install:gulplog@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@gulplog' },
+     'install:gulplog:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@gulplog' },
+     'download:lodash._basetostring@3.0.1': { done: true },
+     'download:lodash._basevalues@3.0.0': { done: true },
+     'download:lodash._isiterateecall@3.0.9': { done: true },
+     'download:lodash.keys@3.1.2': { done: true },
+     'download:lodash.restparam@3.6.1': { done: true },
+     'download:lodash.escape@3.2.0': { done: true },
+     'download:lodash.templatesettings@3.1.1': { done: true },
+     'download:glogg@1.0.0': { done: true },
+     'install:fancy-log@^1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.3.0@fancy-log' },
+     'install:fancy-log:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.3.0@fancy-log' },
+     'install:object-assign@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@object-assign' },
+     'install:object-assign:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@object-assign' },
+     'download:time-stamp@1.0.1': { done: true },
+     'install:dateformat@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@dateformat' },
+     'install:dateformat:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@dateformat' },
+     'install:lodash._reinterpolate@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reinterpolate' },
+     'install:lodash._reinterpolate:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._reinterpolate' },
+     'install:ansi-regex@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.1@ansi-regex' },
+     'install:ansi-regex:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.1@ansi-regex' },
+     'install:semver@^4.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.3.6@semver' },
+     'install:semver:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.3.6@semver' },
+     'install:array-uniq@^1.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@array-uniq' },
+     'install:array-uniq:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@array-uniq' },
+     'install:beeper@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.1@beeper' },
+     'install:beeper:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.1@beeper' },
+     'install:multipipe@^0.1.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@multipipe' },
+     'install:multipipe:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@multipipe' },
+     'download:duplexer2@0.0.2': { done: true },
+     'install:through2@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@through2' },
+     'install:through2:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@through2' },
+     'download:xtend@4.0.1': { done: true },
+     'download:readable-stream@2.2.5': { done: true },
+     'install:findup-sync@^0.4.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.3@findup-sync' },
+     'install:findup-sync:range:0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.3@findup-sync' },
+     'download:resolve-dir@0.1.1': { done: true },
+     'install:once@~1.3.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.3.3@once' },
+     'install:once:range:1.4.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.3.3@once' },
+     'install:lodash.isstring@^4.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@lodash.isstring' },
+     'install:lodash.isstring:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@lodash.isstring' },
+     'install:sparkles@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@sparkles' },
+     'install:sparkles:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@sparkles' },
+     'install:fined@^1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@fined' },
+     'install:fined:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@fined' },
+     'download:micromatch@2.3.11': { done: true },
+     'download:is-glob@2.0.1': { done: true },
+     'install:lodash.isplainobject@^4.0.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.6@lodash.isplainobject' },
+     'install:lodash.isplainobject:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.6@lodash.isplainobject' },
+     'download:detect-file@0.1.0': { done: true },
+     'install:replace-ext@0.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@replace-ext' },
+     'download:lodash.assignwith@4.2.0': { done: true },
+     'download:expand-tilde@1.2.2': { done: true },
+     'download:lodash.isempty@4.4.0': { done: true },
+     'install:lodash.escape@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.2.0@lodash.escape' },
+     'install:lodash.escape:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.2.0@lodash.escape' },
+     'install:strip-bom@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@strip-bom' },
+     'install:strip-bom:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@strip-bom' },
+     'install:lodash._basevalues@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._basevalues' },
+     'install:lodash._basevalues:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@lodash._basevalues' },
+     'install:lodash._basecopy@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._basecopy' },
+     'install:lodash._basecopy:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._basecopy' },
+     'install:lodash._basetostring@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._basetostring' },
+     'install:lodash._basetostring:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._basetostring' },
+     'install:lodash.keys@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.2@lodash.keys' },
+     'install:lodash.keys:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.2@lodash.keys' },
+     'install:lodash.mapvalues@^4.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.6.0@lodash.mapvalues' },
+     'install:lodash.mapvalues:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.6.0@lodash.mapvalues' },
+     'download:lodash.pick@4.4.0': { done: true },
+     'download:wrappy@1.0.2': { done: true },
+     'download:parse-filepath@1.0.1': { done: true },
+     'install:lodash.restparam@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.6.1@lodash.restparam' },
+     'install:lodash.restparam:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.6.1@lodash.restparam' },
+     'install:lodash.templatesettings@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.1@lodash.templatesettings' },
+     'install:lodash.templatesettings:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.1@lodash.templatesettings' },
+     'install:lodash._isiterateecall@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.9@lodash._isiterateecall' },
+     'install:lodash._isiterateecall:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.9@lodash._isiterateecall' },
+     'download:lodash._root@3.0.1': { done: true },
+     'download:first-chunk-stream@1.0.0': { done: true },
+     'download:is-utf8@0.2.1': { done: true },
+     'download:lodash._getnative@3.9.1': { done: true },
+     'download:lodash.isarray@3.0.4': { done: true },
+     'download:lodash.isarguments@3.1.0': { done: true },
+     'install:through2@^0.6.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.6.5@through2' },
+     'install:through2:range:0.7.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.6.5@through2' },
+     'install:glogg@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@glogg' },
+     'install:glogg:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@glogg' },
+     'install:glob-stream@^3.1.5': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.18@glob-stream' },
+     'install:glob-stream:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.18@glob-stream' },
+     'download:readable-stream@1.0.34': { done: true },
+     'download:glob2base@0.0.12': { done: true },
+     'download:ordered-read-streams@0.1.0': { done: true },
+     'download:minimatch@2.0.10': { done: true },
+     'download:glob@4.5.3': { done: true },
+     'install:defaults@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@defaults' },
+     'install:defaults:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.3@defaults' },
+     'download:unique-stream@1.0.0': { done: true },
+     'download:clone@1.0.2': { done: true },
+     'install:time-stamp@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@time-stamp' },
+     'install:time-stamp:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@time-stamp' },
+     'install:vinyl@^0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.5.3@vinyl' },
+     'install:vinyl:range:0.6.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.5.3@vinyl' },
+     'download:clone-stats@0.0.1': { done: true },
+     'install:vinyl@^0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.6@vinyl' },
+     'install:vinyl:range:0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.6@vinyl' },
+     'install:glob-watcher@^0.0.6': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.6@glob-watcher' },
+     'install:glob-watcher:range:0.0.7': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.6@glob-watcher' },
+     'download:clone@0.2.0': { done: true },
+     'install:rechoir@^0.6.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.6.2@rechoir' },
+     'install:rechoir:range:0.7.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.6.2@rechoir' },
+     'install:extend@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@extend' },
+     'install:extend:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.0@extend' },
+     'download:gaze@0.5.2': { done: true },
+     'install:resolve-dir@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@resolve-dir' },
+     'install:resolve-dir:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@resolve-dir' },
+     'download:global-modules@0.2.3': { done: true },
+     'install:expand-tilde@^1.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.2@expand-tilde' },
+     'install:expand-tilde:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.2@expand-tilde' },
+     'install:expand-tilde@^1.2.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.2@expand-tilde' },
+     'install:flagged-respawn@^0.3.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.2@flagged-respawn' },
+     'install:flagged-respawn:range:0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.2@flagged-respawn' },
+     'install:lodash.assignwith@^4.0.7': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.2.0@lodash.assignwith' },
+     'install:lodash.assignwith:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.2.0@lodash.assignwith' },
+     'install:lodash.isempty@^4.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.4.0@lodash.isempty' },
+     'install:lodash.isempty:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.4.0@lodash.isempty' },
+     'install:detect-file@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@detect-file' },
+     'install:detect-file:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@detect-file' },
+     'install:first-chunk-stream@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@first-chunk-stream' },
+     'install:first-chunk-stream:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@first-chunk-stream' },
+     'install:lodash.pick@^4.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.4.0@lodash.pick' },
+     'install:lodash.pick:range:5.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.4.0@lodash.pick' },
+     'install:lodash._root@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._root' },
+     'install:lodash._root:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.1@lodash._root' },
+     'install:is-glob@^2.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@is-glob' },
+     'install:is-glob:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@is-glob' },
+     'download:fs-exists-sync@0.1.0': { done: true },
+     'install:lodash.isarray@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.4@lodash.isarray' },
+     'install:lodash.isarray:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.4@lodash.isarray' },
+     'install:lodash._getnative@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.9.1@lodash._getnative' },
+     'install:lodash._getnative:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.9.1@lodash._getnative' },
+     'install:is-utf8@^0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@is-utf8' },
+     'install:is-utf8:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@is-utf8' },
+     'download:is-extglob@1.0.0': { done: true },
+     'install:parse-filepath@^1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@parse-filepath' },
+     'install:parse-filepath:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@parse-filepath' },
+     'install:lodash.isarguments@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.0@lodash.isarguments' },
+     'install:lodash.isarguments:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.0@lodash.isarguments' },
+     'install:wrappy@1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@wrappy' },
+     'install:wrappy:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@wrappy' },
+     'download:map-cache@0.2.2': { done: true },
+     'download:path-root@0.1.1': { done: true },
+     'download:is-absolute@0.2.6': { done: true },
+     'install:glob2base@^0.0.12': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.12@glob2base' },
+     'install:glob2base:range:0.0.13': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.12@glob2base' },
+     'install:duplexer2@0.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.2@duplexer2' },
+     'download:find-index@0.1.1': { done: true },
+     'install:minimatch@^2.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.10@minimatch' },
+     'install:minimatch:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.10@minimatch' },
+     'download:readable-stream@1.1.14': { done: true },
+     'install:xtend@~4.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@xtend' },
+     'install:xtend:range:4.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@xtend' },
+     'install:xtend@>=4.0.0 <4.1.0-0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@xtend' },
+     'install:xtend:range:4.1.0-0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.4.0.1@xtend' },
+     'install:clone-stats@^0.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@clone-stats' },
+     'install:clone-stats:range:0.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@clone-stats' },
+     'install:glob@^4.3.1': { package: [Object], dir: 'E:\\njj\\node_modules\\.4.5.3@glob' },
+     'install:glob:range:5.0.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.4.5.3@glob' },
+     'download:brace-expansion@1.1.6': { done: true },
+     'install:micromatch@^2.3.7': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.3.11@micromatch' },
+     'install:micromatch:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.3.11@micromatch' },
+     'install:graceful-fs@^3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.11@graceful-fs' },
+     'install:graceful-fs:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.11@graceful-fs' },
+     'download:inherits@2.0.3': { done: true },
+     'download:inflight@1.0.6': { done: true },
+     'download:once@1.4.0': { done: true },
+     'download:expand-brackets@0.1.5': { done: true },
+     'download:arr-diff@2.0.0': { done: true },
+     'download:filename-regex@2.0.0': { done: true },
+     'download:extglob@0.3.2': { done: true },
+     'download:braces@1.8.5': { done: true },
+     'download:array-unique@0.2.1': { done: true },
+     'install:ordered-read-streams@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@ordered-read-streams' },
+     'install:ordered-read-streams:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@ordered-read-streams' },
+     'download:normalize-path@2.0.1': { done: true },
+     'download:parse-glob@3.0.4': { done: true },
+     'download:kind-of@3.1.0': { done: true },
+     'download:regex-cache@0.4.3': { done: true },
+     'download:object.omit@2.0.1': { done: true },
+     'download:natives@1.1.0': { done: true },
+     'install:unique-stream@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@unique-stream' },
+     'install:unique-stream:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@unique-stream' },
+     'install:clone@^0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@clone' },
+     'install:clone:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@clone' },
+     'install:global-modules@^0.2.3': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.3@global-modules' },
+     'install:global-modules:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.3@global-modules' },
+     'install:gaze@^0.5.1': { package: [Object], dir: 'E:\\njj\\node_modules\\.0.5.2@gaze' },
+     'install:gaze:range:0.6.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.0.5.2@gaze' },
+     'install:clone@^1.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@clone' },
+     'install:clone:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@clone' },
+     'install:clone@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@clone' },
+     'download:is-windows@0.2.0': { done: true },
+     'download:global-prefix@0.1.5': { done: true },
+     'download:globule@0.1.0': { done: true },
+     'install:is-extglob@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@is-extglob' },
+     'install:is-extglob:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@is-extglob' },
+     'install:fs-exists-sync@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@fs-exists-sync' },
+     'install:fs-exists-sync:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@fs-exists-sync' },
+     'install:map-cache@^0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.2@map-cache' },
+     'install:map-cache:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.2@map-cache' },
+     'install:find-index@^0.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@find-index' },
+     'install:find-index:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@find-index' },
+     'install:brace-expansion@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.6@brace-expansion' },
+     'install:brace-expansion:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.6@brace-expansion' },
+     'install:readable-stream@>=1.0.33-1 <1.1.0-0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.34@readable-stream' },
+     'install:readable-stream:range:1.1.0-0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.34@readable-stream' },
+     'install:is-absolute@^0.2.3': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.6@is-absolute' },
+     'install:is-absolute:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.6@is-absolute' },
+     'download:concat-map@0.0.1': { done: true },
+     'download:balanced-match@0.4.2': { done: true },
+     'install:mkdirp@^0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.5.1@mkdirp' },
+     'install:mkdirp:range:0.6.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.5.1@mkdirp' },
+     'install:filename-regex@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@filename-regex' },
+     'install:filename-regex:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@filename-regex' },
+     'install:once@^1.3.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.4.0@once' },
+     'install:once:range:2.0.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.4.0@once' },
+     'download:core-util-is@1.0.2': { done: true },
+     'download:isarray@0.0.1': { done: true },
+     'download:string_decoder@0.10.31': { done: true },
+     'install:expand-brackets@^0.1.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@expand-brackets' },
+     'install:expand-brackets:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@expand-brackets' },
+     'install:braces@^1.8.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.8.5@braces' },
+     'install:braces:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.8.5@braces' },
+     'download:is-relative@0.2.1': { done: true },
+     'install:arr-diff@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@arr-diff' },
+     'install:arr-diff:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@arr-diff' },
+     'download:minimist@0.0.8': { done: true },
+     'download:is-posix-bracket@0.1.1': { done: true },
+     'download:repeat-element@1.1.2': { done: true },
+     'download:preserve@0.2.0': { done: true },
+     'download:expand-range@1.8.2': { done: true },
+     'install:parse-glob@^3.0.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.4@parse-glob' },
+     'install:parse-glob:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.0.4@parse-glob' },
+     'download:arr-flatten@1.0.1': { done: true },
+     'install:extglob@^0.3.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.2@extglob' },
+     'install:extglob:range:0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.2@extglob' },
+     'install:object.omit@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@object.omit' },
+     'install:object.omit:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@object.omit' },
+     'install:path-root@^0.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@path-root' },
+     'install:path-root:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@path-root' },
+     'install:inflight@^1.0.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.6@inflight' },
+     'install:inflight:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.6@inflight' },
+     'install:natives@^1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.0@natives' },
+     'install:natives:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.0@natives' },
+     'download:is-dotfile@1.0.2': { done: true },
+     'download:glob-base@0.3.0': { done: true },
+     'install:regex-cache@^0.4.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.3@regex-cache' },
+     'install:regex-cache:range:0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.3@regex-cache' },
+     'download:for-own@0.1.5': { done: true },
+     'download:is-extendable@0.1.1': { done: true },
+     'install:array-unique@^0.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@array-unique' },
+     'install:array-unique:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@array-unique' },
+     'download:path-root-regex@0.1.2': { done: true },
+     'install:inherits@2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@inherits' },
+     'install:inherits:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@inherits' },
+     'install:inherits@~2.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@inherits' },
+     'install:inherits:range:2.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.3@inherits' },
+     'download:is-primitive@2.0.0': { done: true },
+     'download:is-equal-shallow@0.1.3': { done: true },
+     'install:kind-of@^3.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.0@kind-of' },
+     'install:kind-of:range:4.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.0@kind-of' },
+     'install:normalize-path@^2.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@normalize-path' },
+     'install:normalize-path:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.1@normalize-path' },
+     'download:is-buffer@1.1.5': { done: true },
+     'install:readable-stream@^2.1.5': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.5@readable-stream' },
+     'install:readable-stream:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.5@readable-stream' },
+     'install:is-windows@^0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@is-windows' },
+     'install:is-windows:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@is-windows' },
+     'install:global-prefix@^0.1.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@global-prefix' },
+     'install:global-prefix:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@global-prefix' },
+     'download:buffer-shims@1.0.0': { done: true },
+     'download:util-deprecate@1.0.2': { done: true },
+     'download:isarray@1.0.0': { done: true },
+     'download:homedir-polyfill@1.0.1': { done: true },
+     'download:ini@1.3.4': { done: true },
+     'download:which@1.2.12': { done: true },
+     'download:process-nextick-args@1.0.7': { done: true },
+     'install:is-relative@^0.2.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@is-relative' },
+     'install:is-relative:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.1@is-relative' },
+     'install:repeat-element@^1.1.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.2@repeat-element' },
+     'install:repeat-element:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.2@repeat-element' },
+     'install:string_decoder@~0.10.x': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.10.31@string_decoder' },
+     'install:string_decoder:range:0.11.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.10.31@string_decoder' },
+     'install:expand-range@^1.8.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.8.2@expand-range' },
+     'install:expand-range:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.8.2@expand-range' },
+     'install:isarray@0.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@isarray' },
+     'install:arr-flatten@^1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@arr-flatten' },
+     'install:arr-flatten:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@arr-flatten' },
+     'install:is-posix-bracket@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@is-posix-bracket' },
+     'install:is-posix-bracket:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@is-posix-bracket' },
+     'install:balanced-match@^0.4.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.2@balanced-match' },
+     'install:balanced-match:range:0.5.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.4.2@balanced-match' },
+     'install:is-extendable@^0.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@is-extendable' },
+     'install:is-extendable:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.1@is-extendable' },
+     'download:fill-range@2.2.3': { done: true },
+     'download:is-unc-path@0.1.2': { done: true },
+     'install:is-dotfile@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@is-dotfile' },
+     'install:is-dotfile:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@is-dotfile' },
+     'install:glob-base@^0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.0@glob-base' },
+     'install:glob-base:range:0.4.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.3.0@glob-base' },
+     'install:path-root-regex@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@path-root-regex' },
+     'install:path-root-regex:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@path-root-regex' },
+     'download:glob-parent@2.0.0': { done: true },
+     'install:is-primitive@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@is-primitive' },
+     'install:is-primitive:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@is-primitive' },
+     'install:for-own@^0.1.4': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@for-own' },
+     'install:for-own:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.5@for-own' },
+     'install:is-equal-shallow@^0.1.3': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.3@is-equal-shallow' },
+     'install:is-equal-shallow:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.3@is-equal-shallow' },
+     'install:core-util-is@~1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@core-util-is' },
+     'install:core-util-is:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@core-util-is' },
+     'download:for-in@1.0.2': { done: true },
+     'install:readable-stream@~1.1.9': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.14@readable-stream' },
+     'install:readable-stream:range:1.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.14@readable-stream' },
+     'install:concat-map@0.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.1@concat-map' },
+     'install:ini@^1.3.4': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.3.4@ini' },
+     'install:ini:range:2.0.0': { package: [Object], dir: 'E:\\njj\\node_modules\\.1.3.4@ini' },
+     'install:buffer-shims@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@buffer-shims' },
+     'install:buffer-shims:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@buffer-shims' },
+     'install:is-buffer@^1.0.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.5@is-buffer' },
+     'install:is-buffer:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.5@is-buffer' },
+     'install:homedir-polyfill@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@homedir-polyfill' },
+     'install:homedir-polyfill:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@homedir-polyfill' },
+     'download:parse-passwd@1.0.0': { done: true },
+     'install:preserve@^0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@preserve' },
+     'install:preserve:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.0@preserve' },
+     'install:util-deprecate@~1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@util-deprecate' },
+     'install:util-deprecate:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@util-deprecate' },
+     'install:process-nextick-args@~1.0.6': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.7@process-nextick-args' },
+     'install:process-nextick-args:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.7@process-nextick-args' },
+     'install:isarray@~1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@isarray' },
+     'install:isarray:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@isarray' },
+     'install:which@^1.2.12': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.12@which' },
+     'install:which:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.12@which' },
+     'download:isexe@1.1.2': { done: true },
+     'install:globule@~0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@globule' },
+     'install:globule:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.0@globule' },
+     'download:lodash@1.0.2': { done: true },
+     'download:minimatch@0.2.14': { done: true },
+     'download:glob@3.1.21': { done: true },
+     'install:is-unc-path@^0.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@is-unc-path' },
+     'install:is-unc-path:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@is-unc-path' },
+     'install:for-in@^1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@for-in' },
+     'install:for-in:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@for-in' },
+     'install:fill-range@^2.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.3@fill-range' },
+     'install:fill-range:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.2.3@fill-range' },
+     'install:minimist@0.0.8': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.0.8@minimist' },
+     'download:unc-path-regex@0.1.2': { done: true },
+     'download:is-number@2.1.0': { done: true },
+     'download:repeat-string@1.6.1': { done: true },
+     'download:randomatic@1.1.6': { done: true },
+     'download:isobject@2.1.0': { done: true },
+     'install:glob-parent@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@glob-parent' },
+     'install:glob-parent:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.0.0@glob-parent' },
+     'install:parse-passwd@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@parse-passwd' },
+     'install:parse-passwd:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@parse-passwd' },
+     'install:isexe@^1.1.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.2@isexe' },
+     'install:isexe:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.2@isexe' },
+     'install:repeat-string@^1.5.2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.6.1@repeat-string' },
+     'install:repeat-string:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.6.1@repeat-string' },
+     'install:unc-path-regex@^0.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@unc-path-regex' },
+     'install:unc-path-regex:range:0.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.1.2@unc-path-regex' },
+     'install:is-number@^2.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.0@is-number' },
+     'install:is-number:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.0@is-number' },
+     'install:randomatic@^1.1.3': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.6@randomatic' },
+     'install:randomatic:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.1.6@randomatic' },
+     'install:isobject@^2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.0@isobject' },
+     'install:isobject:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.1.0@isobject' },
+     'install:isarray@1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.0@isarray' },
+     'install:resolve@^1.1.7': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.3.2@resolve' },
+     'install:resolve:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.3.2@resolve' },
+     'install:resolve@^1.1.6': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.3.2@resolve' },
+     'install:minimatch@~0.2.11': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.14@minimatch' },
+     'install:minimatch:range:0.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.0.2.14@minimatch' },
+     'install:glob@~3.1.21': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.21@glob' },
+     'install:glob:range:3.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.3.1.21@glob' },
+     'download:sigmund@1.0.1': { done: true },
+     'download:inherits@1.0.2': { done: true },
+     'download:graceful-fs@1.2.3': { done: true },
+     'download:lru-cache@2.7.3': { done: true },
+     'install:lodash@~1.0.1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@lodash' },
+     'install:lodash:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@lodash' },
+     'install:inherits@1': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@inherits' },
+     'install:inherits:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.2@inherits' },
+     'install:sigmund@~1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@sigmund' },
+     'install:sigmund:range:1.1.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@sigmund' },
+     'download:path-parse@1.0.5': { done: true },
+     'install:lru-cache@2': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.7.3@lru-cache' },
+     'install:lru-cache:range:3.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.2.7.3@lru-cache' },
+     'install:path-parse@^1.0.5': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.5@path-parse' },
+     'install:path-parse:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.5@path-parse' },
+     'install:graceful-fs@~1.2.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.3@graceful-fs' },
+     'install:graceful-fs:range:1.3.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.2.3@graceful-fs' },
+     'download:interpret@1.0.1': { done: true },
+     'install:interpret@^1.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@interpret' },
+     'install:interpret:range:2.0.0': 
+      { package: [Object],
+        dir: 'E:\\njj\\node_modules\\.1.0.1@interpret' } },
+  targetDir: 'E:\\njj',
+  storeDir: 'E:\\njj\\node_modules',
+  timeout: 60000,
+  console: 
+   { info: { [Function: disabled] enabled: false, namespace: 'npminstall:index' },
+     log: { [Function: disabled] enabled: false, namespace: 'npminstall:index' },
+     error: [Function: bound ],
+     warn: [Function: bound ] },
+  start: 1489585089221,
+  totalTarballSize: 837545,
+  totalJSONSize: 812142,
+  totalJSONCount: 187,
+  localPackages: 0,
+  remotePackages: 0,
+  registryPackages: 172,
+  gitPackages: 0,
+  paddingMessages: 
+   [ [ 'warn',
+       '%s %s %s',
+       '\u001b[35mdeprecate\u001b[39m',
+       '\u001b[90mgulp@3.9.1\u001b[90m › \u001b[90mvinyl-fs@0.3.14\u001b[90m › \u001b[90mglob-stream@3.1.18\u001b[90m › \u001b[90mminimatch@2.0.10\u001b[39m',
+       'Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue' ],
+     [ 'warn',
+       '%s %s %s',
+       '\u001b[35mdeprecate\u001b[39m',
+       '\u001b[90mgulp@3.9.1\u001b[90m › \u001b[90mvinyl-fs@0.3.14\u001b[90m › \u001b[90mglob-watcher@0.0.6\u001b[90m › \u001b[90mgaze@0.5.2\u001b[90m › \u001b[90mglobule@0.1.0\u001b[90m › \u001b[90mminimatch@0.2.14\u001b[39m',
+       'Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue' ],
+     [ 'warn',
+       '%s %s %s',
+       '\u001b[35mdeprecate\u001b[39m',
+       '\u001b[90mgulp@3.9.1\u001b[90m › \u001b[90mvinyl-fs@0.3.14\u001b[90m › \u001b[90mglob-watcher@0.0.6\u001b[90m › \u001b[90mgaze@0.5.2\u001b[90m › \u001b[90mglobule@0.1.0\u001b[90m › \u001b[90mglob@3.1.21\u001b[90m › \u001b[90mgraceful-fs@1.2.3\u001b[39m',
+       'graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use \'npm ls graceful-fs\' to find it in the tree.' ] ],
+  recentlyUpdateMinDateTime: 1488980289221,
+  recentlyUpdates: 
+   Map {
+     'gulp@3.9.1\u001b[90m › \u001b[39mgulp-util@3.0.8\u001b[90m › \u001b[39mthrough2@2.0.3\u001b[90m › \u001b[39mreadable-stream@2.2.5' => Tue Mar 14 2017 23:28:45 GMT+0800 (中国标准时间),
+     'gulp@3.9.1\u001b[90m › \u001b[39mliftoff@2.3.0\u001b[90m › \u001b[39mfindup-sync@0.4.3\u001b[90m › \u001b[39mmicromatch@2.3.11\u001b[90m › \u001b[39mkind-of@3.1.0\u001b[90m › \u001b[39mis-buffer@1.1.5' => Sat Mar 11 2017 08:51:05 GMT+0800 (中国标准时间) },
+  onlyShowTodayUpdateToConsole: true,
+  installRoot: false,
+  referer: 'install gulp --uuid=a09175f0-0984-11e7-b83c-4b2ac44696b3' }
