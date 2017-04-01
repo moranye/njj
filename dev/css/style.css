@@ -171,3 +171,20 @@ a:hover {
     text-align: center;
     color: #FFF;
 }
+
+.pro-item {
+    margin: 0 auto 30px;
+    max-width: 500px;
+}
+
+.pro-img {
+    
+    border: 1px solid #999;
+    overflow: hidden;
+    
+}
+
+.pro-img img {
+    display: block;
+    width: 100%;
+}
